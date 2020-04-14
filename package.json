@@ -4,9 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo test",
+    "today": "echo 14/04/2020",
+    "weather": "node script.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "date-and-time": "^0.13.1",
+    "lit-weather": "^1.0.0-alpha.2",
+    "nodemon": "^2.0.3",
+    "weather-js": "^2.0.0"
+  }
 }
